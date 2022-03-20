@@ -1,0 +1,100 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #d8e8fa;
+}
+h1, h6{
+    text-align: center;
+    color: #181cff75;
+}
+.pkdxcontainer{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: 10%;
+    width:80%;
+    /* margin-top: 10%; */
+}
+.pkdx-left{
+    width:55%;
+    aspect-ratio: 0.75;
+    background-color: #ff0464;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+.pkdx-right{
+    width: 45%;
+    margin-top: 10%;
+    background-color: #ff0464;
+    aspect-ratio: 0.7;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.screenborder{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    aspect-ratio: 1;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2% 2% 2% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    /* margin-top: 1%; */
+    width: 80%;
+    aspect-ratio: 1.2;
+    background-color: #a0cc9c;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.led{
+    border-radius: 100%;
+    width: 10%;
+    aspect-ratio: 1;
+    background-color: #605c5c;
+    border: 10px solid white;
+    margin: 5%;
+}
+.pkmninfo{
+    background-color: #605c5c;
+    border-radius: 3px;
+    margin-left: 15%;
+    aspect-ratio: 2.1;
+    width:70%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color:white;
+    font-size: 1.4vw;
+}
+.fetchbutton{
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 3px;
+    width: 20%;
+    margin-left: 15%;
+    font-size: 1.3vw;
+}
+#pokeName{
+    margin-left: 15%;
+    width:70%;
+    aspect-ratio: 5;
+    margin-bottom: 10%; 
+    background-color: #84bcfc;
+    border-radius: 5px;
+    font-size: 2.5vw;
+}

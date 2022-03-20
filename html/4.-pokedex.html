@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="../css/pokedex.css">
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <h6>by Luis Castro</h6>
+    <div class="pkdxcontainer">
+        <div class="pkdx-left">
+            <div class="led" id="statusled"></div>
+            <div class="screenborder">
+                <div class="screen"><img src="./pokeball.png" alt="" id="pokeImg" height="100%"></div>
+            </div>
+        </div>
+        <div class="pkdx-right">
+            <textarea class="pkmninfo" name="pkmninfo" id="pkmninfo" disabled></textarea>
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+            <button class="fetchbutton" onclick="fetchPokemon()">Cambiar <br> Pokemon</button><br>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="../js/4.-pokedex.js"></script>
+</footer>
+</html>
